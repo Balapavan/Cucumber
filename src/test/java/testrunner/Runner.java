@@ -12,7 +12,8 @@ import io.cucumber.junit.CucumberOptions;
 				glue="stepDefnetions",
 				dryRun=false,
 				monochrome=true,
-				plugin= {"pretty","html:test-outputfolder"}
+				plugin= {"pretty","html:test-outputfolder"},
+				tags= {"Sanity"}
 		)
 
 public class Runner {
