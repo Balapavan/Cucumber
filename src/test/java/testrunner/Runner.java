@@ -13,8 +13,8 @@ import io.cucumber.junit.CucumberOptions;
 				dryRun=true,             //--> To check all Steps are implemented or not Note: Scripts won't execute
 				monochrome=true,         //--> Output will come Readable format 
 				plugin= {"pretty","html:test-outputfolder"}, 
-				tags= {"@Smoke"},         //--> Run based on Tag name
-				strict=true				  //--> Scipts will execute even-though steps are not implemented and it throw run time Exception    	
+				tags= {"@Smoke"}         //--> Run based on Tag name
+				//strict=true				  //--> Scipts will execute even-though steps are not implemented and it throw run time Exception    	
 		)
 /*** Tags Declarations ****--> Tags are used to specify which scenarios need to be Run 
  **** Run based on Single tag name ***
